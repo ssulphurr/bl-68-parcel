@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["index.8ce928b9.css","src/sass/__base.scss"],"sourcesContent":["body {\n  font-family: Poppins, sans-serif;\n  font-style: normal;\n}\n\n/*# sourceMappingURL=index.8ce928b9.css.map */\n","body{\n    font-family: \"Poppins\", sans-serif;\n    font-style: normal;\n}"],"names":[],"version":3,"file":"index.8ce928b9.css.map"}
