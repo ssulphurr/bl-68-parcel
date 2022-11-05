@@ -1,0 +1,36 @@
+.team-member{
+    display: flex;
+    width: 1224px;
+    margin: 200 108;
+}
+.team-wrap{
+    width: 265px;
+    height: 91px;
+    background-color: rgba(40, 48, 54, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 8px;
+    text-align: left;
+    padding: 10px 22px 16px 22px;
+}
+.team-title{
+    font-weight: 500;
+    font-size: 26px;
+        line-height: 39px;
+        letter-spacing: 0.015em;
+        color: rgba(255, 253, 253, 0.78);
+    }
+.team-dscr{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(255, 253, 253, 0.55);
+}
+
+.team-text{
+    width: 393px;
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.015em;
+    
+}
