@@ -1,0 +1,31 @@
+.section-newcomer {
+  margin-left: 108px;
+}
+
+.section-newcomer__title {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.29;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.section-newcomer__description {
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.section-newcomer__button {
+  width: 198px;
+  height: 58px;
+  background-color: #ff6e30;
+  border-radius: 8px;
+}
+
+.section-newcomer__button:hover,
+.section-newcomer__button:focus {
+  background-color: #3f1605;
+}
