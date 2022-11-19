@@ -1,0 +1,477 @@
+@charset "UTF-8";
+@import '~node_modules/modern-normalize/modern-normalize.css';
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+.example {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #2f2f37;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ff6b0a;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-contributor {
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background-color: #283036;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  border-bottom: 0.5 solid rgba(255, 255, 255, 0.15);
+}
+
+.contributor {
+  width: 553px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.2916666667;
+  text-align: center;
+  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6666666667;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 100px;
+}
+
+.email-form {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 549px;
+  height: 64px;
+  padding-left: 24px;
+  background: #283036;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1.5px solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+
+.email-form:focus {
+  outline: none;
+  caret-color: #837A93;
+  border-color: #FF6E30;
+}
+
+.submit-button {
+  width: 130.43px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  background-color: #FF6E30;
+  position: relative;
+  left: 406px;
+  top: 8px;
+}
+
+body {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-container {
+  display: flex;
+  gap: 115px;
+  padding-top: 70px;
+  padding-left: 108px;
+  padding-bottom: 98px;
+}
+
+.footer-logo-wrapper {
+  width: 260px;
+}
+
+.logo {
+  display: flex;
+  gap: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.author {
+  margin-bottom: 27px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.7857142857;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-menu {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.athor-dscr {
+  font-size: 14px;
+  line-height: 1.7857142857;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-items {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.header {
+  background: #1E252B;
+  padding-top: 26px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 111px;
+  padding-right: 105px;
+}
+
+.section-logo {
+  display: flex;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+  margin-left: 12px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-li {
+  display: flex;
+  gap: 15px;
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+}
+
+.enter-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.78);
+  opacity: 0.78;
+  margin-right: 41px;
+}
+
+.enter {
+  padding-top: 12px;
+  padding-right: 28px;
+  padding-bottom: 12px;
+  padding-left: 28px;
+  left: 1214px;
+  top: 26px;
+  background: #FF6E30;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #FDF5FF;
+}
+
+.section-newcomer {
+  margin-left: 108px;
+}
+
+.section-newcomer__title {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.29;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.section-newcomer__description {
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.section-newcomer__button {
+  width: 198px;
+  height: 58px;
+  background-color: #ff6e30;
+  border-radius: 8px;
+}
+
+.section-newcomer__button:hover,
+.section-newcomer__button:focus {
+  background-color: #3f1605;
+}
+
+.team-member {
+  display: flex;
+  width: 1224px;
+  margin: 200 108;
+}
+
+.team-wrap {
+  width: 265px;
+  height: 91px;
+  background-color: rgba(40, 48, 54, 0.2);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  border-radius: 8px;
+  text-align: left;
+  padding: 10px 22px 16px 22px;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0.015em;
+  color: rgba(255, 253, 253, 0.78);
+}
+
+.team-dscr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 253, 253, 0.55);
+}
+
+.team-text {
+  width: 393px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+}
+
+.reviews {
+  background-color: rgb(103, 103, 103);
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+}
+
+.slick-card {
+  background-color: aqua;
+  height: 800px;
+}
+
+.one-time {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.slick-card-title {
+  text-align: center;
+  font-size: 44px;
+}
+
+.container-trusted {
+  width: 1224px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 82px;
+  padding-right: 82px;
+  padding-top: 55px;
+  padding-bottom: 56px;
+  border-radius: 25px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(40, 48, 54);
+}
+
+.trusted-title {
+  margin-bottom: 55px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.trusted-list {
+  display: flex;
+  gap: 107px;
+}
+
+.trusted-item {
+  width: calc((100% - 321px) / 4);
+  height: 51px;
+}
+
+.trusted-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: transform;
+  transition-duration: 300ms;
+  transform: scale(1);
+}
+
+.trusted-link:hover,
+.trusted-link:focus {
+  transform: scale(1.2);
+}
+
+.trusted-icon {
+  fill: rgba(255, 255, 255, 0.2);
+}
+
+/* Стили для подложки */
+.overlay {
+  /* Скрываем подложку  */
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  transition: 0.3s all;
+}
+
+/* Стили для модальных окон */
+.modal {
+  /* Скрываем окна  */
+  opacity: 0;
+  visibility: hidden;
+  /*  Установаем ширину окна  */
+  width: 100%;
+  max-width: 500px;
+  /*  Центрируем и задаем z-index */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+  /* Должен быть выше чем у подложки*/
+  /*  Побочные стили   */
+  box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+  transition: 0.3s all;
+}
+
+/* Стили для активных классов подложки и окна */
+.modal.active,
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Стили для кнопки закрытия */
+.modal__cross {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  fill: #444;
+  cursor: pointer;
+}
+
+/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
+.modal__link {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #414b52;
+  margin: 10px;
+  color: #fff;
+  border-radius: 3px;
+}/*# sourceMappingURL=index.css.map */
