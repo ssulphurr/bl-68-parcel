@@ -1,3 +1,7 @@
+# Посилання на Discord сервер для спілкування
+
+https://discord.gg/TWBWzkfN
+
 # Parcel template
 
 Этот проект был создан при помощи Parcel. Для знакомства и настройки
