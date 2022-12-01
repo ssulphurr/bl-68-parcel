@@ -1,0 +1,82 @@
+.hero-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/Illustration.png);
+  background-repeat: no-repeat;
+  background-size: 589px;
+  background-position: right top;
+  padding-left: 111px;
+}
+.hero-title {
+  width: 600px;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.9);
+}
+.hero-dot {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.4;
+  color: #ff6e30;
+}
+.hero-description {
+  width: 487px;
+  margin-bottom: 60px;
+  font-family: 'Poppins';
+  font-size: 18px;
+  line-height: 1.67;
+  color: rgba(255, 255, 255, 0.55);
+}
+.form-search {
+  position: relative;
+  width: 498px;
+  margin-bottom: 110px;
+}
+.input-search {
+  width: 100%;
+  height: 64px;
+  padding-left: 55px;
+  background-color: #283036;
+  border-radius: 15px;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  line-height: calc(21 / 16);
+  color: rgba(255, 255, 255, 0.38);
+}
+.icon-search {
+  position: absolute;
+  top: 20px;
+  left: 18px;
+  border: none;
+  fill:none;
+  stroke:rgba(255, 255, 255, 0.38);
+}
+.input-search::placeholder {
+  font-size: 14px;
+  line-height: calc(21 / 16);
+  color: rgba(255, 255, 255, 0.38);
+  border-left: 1.5px solid #837a93;
+}
+.search-btn {
+  position: absolute;
+  width: 130px;
+  height: 48px;
+  top: 8px;
+  right: 11px;
+  border-radius: 8px;
+  background-color: #ff6e30;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #ffffff;
+}
+.soc-list {
+  display: flex;
+  gap: 20px;
+}
+.soc-icon {
+  fill: rgba(255, 255, 255, 0.78);
+}
